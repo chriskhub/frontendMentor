@@ -17,13 +17,14 @@ body {
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
   background-color: #313a48;
-  height: 347px;
-  width: 343px;
-  max-width: 550px;
+  text-align: center;
   border-radius: 10px;
-  position: relative;
-  top: 20%;
+  max-width: 600px;
+  margin: auto 20px;
+  padding: 4px 4px;
 }
 
 .advice-id {
@@ -42,29 +43,54 @@ body {
   line-height: 33px;
   letter-spacing: -0.257;
   text-align: center;
-  margin: 0 7% 0 7%;
+  padding: 0 10%;
 }
 
 .divider {
   text-align: center;
-  margin: 5% 0 15% 0;
+  margin: 10% 0 15% 0;
 }
+
+.divider img {
+  width: 80%;
+}
+
 
 button {
   background-color: #53ffaa;
-  transform: translateX(250%) translateY(-30%);
   border: solid;
   border-radius: 50%;
   padding: 15px 16px 12px;
   border: 0;
-  cursor: pointer;
+  margin: 0 auto -32px;
 }
 
 button:hover {
-    box-shadow: 0 0 40px #53ffaa;
+  box-shadow: 0 0 40px #53ffaa;
+  cursor: pointer;
 }
 
 path {
   text-align: center;
   line-height: 50%;
+}
+
+@media screen and (min-width: 1000px) {
+  .card {
+    padding: 0px 5px;
+  }
+  .advice-id {
+    font-size: 14px;
+  }
+
+  .advice-txt {
+    color: #cee3e9;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: -0.257;
+    text-align: center;
+  }
+  .divider img {
+    width: 75%;
+  }
 }
