@@ -1,6 +1,10 @@
 # Frontend Mentor - Order summary card solution
 
 This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+
+### Live Solution Link
+[Live solution](https://chrisk-ordersummary.netlify.app/)
+
 ### Screenshot
 
 <img src="https://github.com/chriskhub/frontendMentor/blob/main/order-summary-component-main/images/order-summary-desktop-screenshot.jpg" alt="Desktop Screenshot" width="950"/>
